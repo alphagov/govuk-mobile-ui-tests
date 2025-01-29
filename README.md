@@ -79,6 +79,12 @@ cd /dir/where/your/tests/are
 maestro test -e APP_ID=<see above> filename.yaml
 ```
 
+You can also run tests by tag(s). For example:
+
+```shell
+maestro test -e APP_ID=<see above> --include-tags=tag-name(,tag-name) .
+```
+
 ## Other useful Maestro commands
 
 Maestro comes with some very useful tools to help you debug, identify issues and generally assist with test creation and maintenance.
