@@ -71,4 +71,4 @@ appId: ${APP_ID}
 - tapOn:
     id: "toggle Travel abroad"
 
-- back
+- runFlow: ../device-specific/back-or-done.yaml
