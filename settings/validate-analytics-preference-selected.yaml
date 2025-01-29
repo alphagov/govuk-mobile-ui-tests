@@ -1,0 +1,10 @@
+appId: ${APP_ID}
+
+---
+
+- assertVisible: "Settings"
+- tapOn: "Settings"
+
+- assertVisible:
+    id: "toggle Share app usage statistics"
+    checked: true

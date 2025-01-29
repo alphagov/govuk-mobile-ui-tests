@@ -1,0 +1,20 @@
+appId: ${APP_ID}
+
+---
+
+- launchApp:
+    clearState: true
+
+- runFlow: onboarding/accept-statistics-sharing.yaml
+
+- runFlow: onboarding/view-all-screens.yaml
+
+- runFlow: topics/select-initial-topics.yaml
+
+- stopApp
+
+- launchApp
+
+- runFlow: topics/validate-initial-topics.yaml
+
+- runFlow: settings/validate-analytics-preference-selected.yaml
