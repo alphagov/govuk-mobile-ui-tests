@@ -19,3 +19,5 @@ tags:
 - launchApp
 
 - runFlow: device-specific/edit-initial-topics.yaml
+
+- runFlow: topics/validate-edited-topics.yaml
