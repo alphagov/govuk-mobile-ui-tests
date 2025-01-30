@@ -2,9 +2,6 @@ appId: ${APP_ID}
 
 ---
 
-- assertVisible: "Edit"
-- tapOn: "Edit"
-
 - scrollUntilVisible:
     element:
       text: "Benefits"
@@ -70,5 +67,3 @@ appId: ${APP_ID}
       text: "Travel abroad"
 - tapOn:
     id: "toggle Travel abroad"
-
-- runFlow: ../device-specific/back-or-done.yaml

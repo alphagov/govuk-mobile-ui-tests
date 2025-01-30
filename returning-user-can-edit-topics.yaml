@@ -18,4 +18,4 @@ tags:
 
 - launchApp
 
-- runFlow: topics/edit-initial-topics.yaml
+- runFlow: device-specific/edit-initial-topics.yaml
