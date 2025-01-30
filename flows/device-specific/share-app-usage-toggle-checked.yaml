@@ -18,4 +18,3 @@ appId: ${APP_ID}
       - assertVisible:
           text: "1"
           index: 0
-
