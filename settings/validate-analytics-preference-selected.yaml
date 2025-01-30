@@ -5,6 +5,4 @@ appId: ${APP_ID}
 - assertVisible: "Settings"
 - tapOn: "Settings"
 
-- assertVisible:
-    id: "toggle Share app usage statistics"
-    checked: true
+- runFlow: ../device-specific/share-app-usage-toggle-checked.yaml
