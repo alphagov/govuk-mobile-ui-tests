@@ -71,18 +71,18 @@ adb install app/build/outputs/apk/debug/app-debug.apk
 
 Now that you have a running simulator that has your app installed on it, you can run the tests.
 
-Note that we are passing in an environment variable below as the `appId` that is required by Maestro to identify the app to start. This differs between the iOS and Android implementation of the GOV.UK app. For Android it is: `uk.govuk.app.dev`, and for iOS it is: `uk.gov.govuk.dev`.
+Note that we are passing in an environment variable below as the `appId` that is required by Maestro to identify the app to start. This differs between the iOS and Android implementation of the GOV.UK app.
 
 ```shell
 cd /dir/where/your/tests/are
 
-maestro test -e APP_ID=<see above> filename.yaml
+maestro test filename.yaml
 ```
 
 You can also run tests by tag(s). For example:
 
 ```shell
-maestro test -e APP_ID=<see above> --include-tags=<tag-name>(,tag-name) flows
+maestro test --include-tags=<tag-name>(,tag-name) flows
 ```
 
 ## Other useful Maestro commands
